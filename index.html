@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBPAGE</title>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  
+	
+	
+	<style>
+				f{
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.latestTranDiv{
+    margin-top: 30px
+}
+
+.ltcon{
+    margin-top: 20px;
+}
+
+.lt{
+    text-align: center;
+    border: 2px solid #d2d2d8;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.form .fa-search {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    color: #9ca3af
+}
+
+.forsp {
+    position: absolute;
+    right: 17px;
+    top: 10px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+}
+
+.fori {
+    width: 400px;
+    height: 50px;
+    text-indent: 33px;
+    border-radius: 10px;
+    border: none;
+}
+
+.fori:focus {
+    box-shadow: none;
+    border: none
+}
+
+.hidl{
+    display: none;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.plab{
+    display: none;
+}
+
+.noti{
+    position: relative;
+}
+
+.notifiDot:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: red;
+    top: -3px;
+    right: -2px;
+    border-radius: 50%;
+}
+
+.dp{
+    margin-left: 10px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.ri8sec{
+    margin-top: 100px;
+}
+
+.ri8sec .row{
+    --bs-gutter-x: 0;
+}
+
+.ri8seccl{
+    margin: 0;
+    padding: 10px;
+}
+
+.ri8sec .row .ri8seccl .exploreDiv{
+    margin-top: -50px;
+}
+
+.fcol{
+    padding: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: radial-gradient(circle farthest-corner at 0px 140px, #1B2664 70%, #ffffff 70%);
+    background-size: 120% 100%;
+}*{
+    margin: 0;
+    padding: 0;
+}
+
+.Sec{
+    background-color: #eeeff6;
+    padding: 20px;
+}
+
+.lCol{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #1B2664;
+    position: relative;
+}
+
+.logod{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Logo{
+    max-width: 80px;
+    margin: auto;
+}
+
+.wellab{
+    margin-top: 20px;
+    color: #c9cee8;
+    font-size: 12px;
+}
+
+.title{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.menu{
+    margin-top: 50px;
+}
+
+.mencon{
+    margin-top: 30px;
+}
+
+.micon{
+    text-align: center;
+    background-color: #3a4bad;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.homi{
+    background-color: #f42879;
+}
+
+.menic{
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.mentx{
+    color: #ffffff;
+}
+
+.logout{
+    position: absolute;
+    bottom: 50px;
+}
+
+.ri8c{
+    padding: 20px;
+}
+
+.form {
+    position: relative
+}
+
+
+
+.inim{
+    width: 200px;
+    border-bottom-left-radius: 20px;
+}
+
+.secco{
+    background-color: #ffffff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+}
+
+.secco div .insuTitle{
+    font-size: 25px;
+    font-weight: bold;
+	font-family:Montserrat;
+}
+
+.btn-ins{
+    background-color: #f42879;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: none;
+}
+
+.typ-con{
+    margin-top: 30px;
+}
+
+.typ-col{
+    padding: 10px;
+}
+
+.typ-d{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px 10px;
+    position: relative;
+}
+
+.typ-fil{
+	font-family:Montserrat;
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.dep-chart{
+    max-width: 70px;
+}
+
+.typ-ttl{
+	font-family:Montserrat;
+    font-size: 12px;
+}
+
+.typ-amt{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.barc{
+    bottom: 10px;
+    padding: 50px 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.chartTitle{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.colInfo{
+    font-size: 12px;
+	font-family:Montserrat;
+}
+
+.receivedDot, .spentDot, .noTranDot{
+    font-size: 10px;
+}
+
+.receivedDot{
+    color: #172b9f;
+}
+
+.spentDot{
+    color: #f52a7a;
+}
+
+.noTranDot{
+    color: #e7e8ef;
+}
+
+.selectFilter{
+    box-shadow: 0px 0px 31px -8px rgba(0,0,0,0.89);
+    -webkit-box-shadow: 0px 0px 31px -8px rgba(0,0,0,0.89);
+    -moz-box-shadow: 0px 0px 31px -8px rgba(0,0,0,0.89);
+    width: max-content;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.chartDiv{
+    margin-top: 30px;
+}
+
+.barChartImg{
+    max-width: 100%
+}
+
+.tranCol{
+    padding: 10px;
+    }
+
+.transactionSec{
+    margin-top: -50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 0 20px;
+    padding-bottom: 50px;
+}
+
+.tranCardDiv .container-fluid .row {
+    padding-top: 20px;
+}
+
+.ticonDivPar{
+    text-align: center;
+}
+
+.ticonDiv{
+    margin: auto;
+    background-color: #f42879;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: max-content;
+}
+
+.ticon{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.shadPar{
+    padding: 0 20px;
+}
+
+.vcard{
+    border-radius: 10px;
+    background: linear-gradient(110deg, #1B2664 60%, #4158e5 60%);
+    padding: 20px;
+    color: #ffffff;
+}
+
+.cardPosition{
+    position: relative;
+}
+
+.cardBtn{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #f42879;
+    top: 40%;
+    right: -10px;
+    padding: 5px 10px;
+}
+
+.cardShadow{
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 40px;
+    height: 15px;
+    background: none;
+    background-color: #b1b8df;
+    padding: 0;
+}
+
+.checkDiv{
+    padding: 3px 5px;
+    background-color: #35bb84;
+    border-radius: 50%;
+}
+
+.visaTitle{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+}
+
+.cardNum{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.cardFooter{
+    margin-top: 20px;
+}
+
+.footTitle, .footInfo{
+    font-size: 10px;
+    color: #9da7db;
+}
+
+.
+.latestticon{
+    font-size: 24px;
+}
+
+.latestTranContent{
+    padding: 8px;
+}
+
+.latTranConTitle{
+    font-size: 15px;
+    font-weight: bold;
+	font-family: Montserrat;
+}
+
+.latTranConData{
+    font-size: 10px;
+}
+
+.amount, .receivedAmount{
+    color: #f42879;
+    font-size: 10px;
+    font-weight: bold;
+	font-family:Montserrat;
+}
+
+.receivedAmount{
+    color: #45c08e;
+}
+
+@media all and (max-width: 990px) {
+    .fori {
+        width: 200px;
+    }
+
+    .hidl{
+        display: block;
+    }
+
+    .plab{
+        display: block;
+    }
+
+    .hiddenProfile{
+        display: none;
+    }
+
+    .leftCol{
+        display: none;
+    }
+
+    .ri8c{
+        padding: 0px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .tranCol{
+        margin-top: 50px;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .fori {
+        width: 150px;
+    }
+
+    .inim{
+        width: 150px;
+    }
+}
+
+@media all and (max-width: 428px) {
+    .fcol{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .secco{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .inim{
+        width: 150px;
+    }
+}
+
+@media all and (max-width: 358px) {
+    .fori {
+        width: 70px;
+    }
+}
+	</style>
+	
+	<script src="./bootstrap-5/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/mdb.min.js"></script>
+</head>
+<body>
+    <section class="Sec">
+        <div class="container-fluid">
+            <div class="row">
+    <div class="lCol col-lg-2">
+                  <div class="logod">
+                    <div>
+                      <img class="Logo" src="https://img.freepik.com/free-psd/engraved-black-logo-mockup_125540-223.jpg?size=338&ext=jpg&ga=GA1.1.2111374162.1641772800" alt="logo">
+         </div>
+                    <div class="wellab">Welcome</div>
+                    <div class="title">FINBANK</div>
+                  </div>
+                  <div class="menu">
+                    <div class="container-fluid mencon">
+                      <div class="row">
+                        <div class="col-3 homi micon"><i class="fa fa-home menic"></i></div>
+                        <div class="col-9 mentx d-flex align-items-center">
+                          Dashboard
+                        </div>
+                      </div>
+         </div>
+                    <div class="container-fluid mencon">
+                      <div class="row">
+                        <div class="col-3 micon"><i class="fa fa-exchange menic"></i></div>
+                        <div class="col-9 mentx d-flex align-items-center">
+                          Transaction
+            </div>
+                      </div>
+                    </div>
+                    <div class="container-fluid mencon">
+                      <div class="row">
+                        <div class="col-3 micon"><i class="fa fa-credit-card menic"></i></div>
+                        <div class="col-9 mentx d-flex align-items-center">
+                         Cards
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container-fluid mencon">
+                      <div class="row">
+                        <div class="col-3 micon"><i class="fa fa-percent menic"></i></div>
+                        <div class="col-9 mentx d-flex align-items-center">
+                          Offers
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container-fluid mencon">
+                      <div class="row">
+               <div class="col-3 micon"><i class="fa fa-dollar menic"></i></div>
+                        <div class="col-9 mentx d-flex align-items-center">
+                          Investment
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container-fluid logout mencon">
+                    <div class="row">
+                      <div class="col-3 micon"><i class="fa fa-sign-out menic"></i></div>
+                      <div class="col-9 mentx d-flex align-items-center">
+                        Logout
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ri8c col-lg-10 col-md-12">
+                    <header>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-*">
+                            <div class="container-fluid">
+                              <div class="navbar-brand">
+                                <div class="form">
+                                    <i class="fa fa-search"></i>
+                                    <input type="text" class="form-control fori" placeholder="Search transaction, offers, investment etc....">
+                                </div>
+                              </div>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto">
+                                  <li class="nav-item hidl">
+                                    <a class="nav-link" style="font-family:Montserrat;" href="">Dashboard</a>
+                                  </li>
+                                  <li class="nav-item hidl">
+                                    <a class="nav-link" href="" style="font-family:Montserrat;">Transaction</a>
+                                  </li>
+                                  <li class="nav-item hidl">
+                                    <a class="nav-link" href="" style="font-family:Montserrat;">Cards</a>
+                                  </li>
+                                  <li class="nav-item hidl">
+                                    <a class="nav-link" href="" style="font-family:Montserrat;">Offers</a>
+                                  </li>
+                                  <li class="nav-item hidl">
+                                    <a class="nav-link" href="" style="font-family:Montserrat;">Investment</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" style="color:#172b9f;font-family:Montserrat;" href="">Feedback</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" style="color:#172b9f;font-family:Montserrat;font-family:Montserrat;"href="">Contact</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link"style="color:#172b9f;font-family:Montserrat;" href="">Help</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" style="color:#172b9f;"href="">
+                                      <i class="fa fa-bell noti">
+                                        <div class="notifiDot"></div>
+                                      </i>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item plab">
+                                    <a class="nav-link"  href="">Profile</a>
+                                  </li>
+                                  <li class="nav-item hiddenProfile">
+                                    <a class="nav-item" href="">
+                                      <img class="dp" src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png" alt="profile">
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                        </nav>
+                    </header>
+                    <section class="rightSec">
+                      <div class="container-fluid ri8sec">
+                        <div class="row">
+                          <div class="col-md-8 col-sm-12 ri8seccl">
+                            <div class="exploreDiv">
+                              <div class="container-fluid">
+                                <div class="row">
+                                  <div class="fcol col  d-flex align-items-center">
+                                    <img class="inim" src="https://i.pinimg.com/736x/45/21/07/4521078f4e9f085f2d7cfdcb4f7e25db.jpg" alt="image" height="200px">     
+                                  </div>
+                                  <div class="secco col d-flex align-items-center">
+                                    <div>
+                                      <p  style="font-family:Montserrat;" class="insuTitle">Live Life Confidentaly</p>
+                                      <p style="font-family:Montserrat;">Chase your dreams and finish your plans by spending money in insurance</p>
+                                      <button type="button" style="font-family:Montserrat;" class="btn-ins">Explore Insurance</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="typ-con container-fluid">
+                              <div class="row">
+                                <div class="typ-col col-lg-4 col-md-6 col-sm-12">
+                                  <div class="typ-d">
+                                    <div class="typ-fil">Monthly <i class="fa fa-angle-down rightAngleIcon"></i></div>
+                                    <div class="container-fluid">
+                                      <div class="row">
+                                        <div class="col d-flex align-items-center">
+                                          <img class="dep-chart" src="https://png.pngtree.com/png-clipart/20190604/original/pngtree-bar-graph-element-png-image_1529962.jpg" alt="deposit chart">
+                                        </div>
+                                        <div class="col">
+                                          <div class="typ-ttl">Deposit</div>
+                                          <div class="typ-amt " style="color:#172b9f; font-family:Montserrat;">$58789.78</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="typ-col col-lg-4 col-md-6 col-sm-12">
+                                  <div class="typ-d">
+                                    <div class="typ-fil">Monthly <i class="fa fa-angle-down rightAngleIcon"></i></div>
+                                    <div class="container-fluid">
+                                      <div class="row">
+                                        <div class="col d-flex align-items-center">
+                                          <img class="dep-chart" src="https://png.pngtree.com/png-clipart/20190604/original/pngtree-bar-graph-element-png-image_1529962.jpg" alt="withdraw chart">
+                                        </div>
+                                        <div class="col">
+                                          <div class="typ-ttl">Withdrawal</div>
+                                          <div class="typ-amt" style="color:#172b9f; font-family:Montserrat;">$49780.78</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="typ-col col-lg-4 col-md-12 col-sm-12">
+                                  <div class="typ-d">
+                                    <div class="typ-fil">Monthly <i class="fa fa-angle-down rightAngleIcon"></i></div>
+                                    <div class="container-fluid">
+                                      <div class="row">
+                                        <div class="col d-flex align-items-center">
+                                          <img class="dep-chart" src="https://png.pngtree.com/png-clipart/20190604/original/pngtree-bar-graph-element-png-image_1529962.jpg" alt="savings chart">
+                                        </div>
+                                        <div class="col">
+                                          <div class="typ-ttl">Savings</div>
+                                          <div class="typ-amt" style="color:#172b9f; font-family:Montserrat;">$46344.78</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="barc container-fluid">
+                              <div class="container-fluid">
+                                <div class="row">
+                                  <div class="col-4 chartTitle" style="font-family:Montserrat;">Cash Flow</div>
+                                  <div class="col-8 d-flex align-items-center">
+                                    <div class="container-fluid">
+                                      <div class="row">
+                                        <div class="col-lg-3 col-md-6 colInfo d-flex align-items-center">
+                                          <i class="fa fa-circle receivedDot"></i> &nbsp; Received
+                                        </div>
+                                        <div class="col-lg-2 col-md-6 colInfo d-flex align-items-center">
+                                          <i class="fa fa-circle spentDot"></i> &nbsp; Spent
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 colInfo d-flex align-items-center">
+                                          <i class="fa fa-circle noTranDot"></i> &nbsp; No Transaction
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 colInfo">
+                                          <div class="selectFilter" style="font-family:Montserrat;">
+                                            Last Month <i class="fa fa-angle-down rightAngleIcon"></i>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="chartDiv">
+                                <canvas id="myChart" class="chartjs-render-monitor"></canvas>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 col-sm-12 tranCol">
+                            <div class="transactionSec">
+                              <div class="CardDiv">
+                                <div class="container-fluid">
+                                  <div class="row">
+                                    <div class="col-9 d-flex align-items-center" style="font-family:Montserrat;">My card</div>
+                                    <div class="col-3 d-flex ticonDivPar">
+                                      <div class="ticonDiv"><i class="fa fa-plus ticon"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="shadPar">
+                                <div class="vcard cardShadow"></div>
+                              </div>
+                              <div class="vcard cardPosition">
+                                <div class="cardBtn">
+                                  <i class="fa fa-caret-down"></i>
+                                </div>
+                                <div class="container-fluid">
+                                  <div class="row">
+                                    <div class="col d-flex align-items-center">
+                                      <div class="checkDiv">
+                                        <i class="fa fa-check"></i>
+                                      </div>
+                                    </div>
+                                    <div class="col visaTitle">VISA</div>
+                                  </div>
+                                </div>
+                                <div class="cardNum">
+                                  **** **** ****  2864
+                                </div>
+                                <div class="container-fluid cardFooter">
+                                  <div class="row">
+                                    <div class="col-6">
+                                      <div class="footTitle">AVAILABLE FUNDS</div>
+                                      <div class="f">68.789,56 $</div>
+                                    </div>
+                                    <div class="col-6">
+                                      <div class="container-fluid">
+                                        <div class="row">
+                                          <div class="col">
+                                            <div class="footTitle">EXPIRES</div>
+                                            <div class="f">8/22</div>
+                                          </div>
+                                          <div class="col">
+                                            <div class="footTitle">CVV</div>
+                                            <div class="f">186</div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="container-fluid latestTranDiv">
+                                <div class="row">
+                                  <div class="col-9 d-flex align-items-center">Latest Transaction</div>
+                                  <div class="col-3 d-flex ticonDivPar">
+                                    <div class="ticonDiv"><i class="fa fa-arrow-right ticon"></i></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="container-fluid ltcon">
+                                <div class="row">
+                                  <div class="col-2 lt d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-shopping-bag latestticon"></i>
+                                  </div>
+                                  <div class="col-6 latestTranContent d-flex align-items-center">
+                                    <div>
+                                      <div class="latTranConTitle">Supreme Shirt</div>
+                                      <div class="latTranConData">11 Nov, 2020 11:00 pm</div>
+                                    </div>
+                                  </div>
+                                  <div class="col-3 d-flex amount align-items-center justify-content-center">
+                                    -15,00 $
+                                  </div>
+                                  <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-angle-right rightAngleIcon"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="container-fluid ltcon">
+                                <div class="row">
+                                  <div class="col-2 lt d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-cc-visa latestticon"></i>
+                                  </div>
+                                  <div class="col-6 latestTranContent d-flex align-items-center">
+                                    <div>
+                                      <div class="latTranConTitle">Salary</div>
+                                      <div class="latTranConData">05 Nov, 2020 11:00 am</div>
+                                    </div>
+                                  </div>
+                                  <div class="col-3 d-flex receivedAmount align-items-center justify-content-center">
+                                    +249,69 $
+                                  </div>
+                                  <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-angle-right rightAngleIcon"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="container-fluid ltcon">
+                                <div class="row">
+                                  <div class="col-2 lt d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-heartbeat latestticon"></i>
+                                  </div>
+                                  <div class="col-6 latestTranContent d-flex align-items-center">
+                                    <div>
+                                      <div class="latTranConTitle">Medical Checkup</div>
+                                      <div class="latTranConData">04 Nov, 2020 09:00 am</div>
+                                    </div>
+                                  </div>
+                                  <div class="col-3 d-flex amount align-items-center justify-content-center">
+                                    -39,50 $
+                                  </div>
+                                  <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-angle-right rightAngleIcon"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="container-fluid ltcon">
+                                <div class="row">
+                                  <div class="col-2 lt d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-cutlery latestticon"></i>
+                                  </div>
+                                  <div class="col-6 latestTranContent d-flex align-items-center">
+                                    <div>
+                                      <div class="latTranConTitle">Pizzahot</div>
+                                      <div class="latTranConData">04 Nov, 2020 10:00 pm</div>
+                                    </div>
+                                  </div>
+                                  <div class="col-3 d-flex amount align-items-center justify-content-center">
+                                    -6,50 $
+                                  </div>
+                                  <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-angle-right rightAngleIcon"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="container-fluid ltcon">
+                                <div class="row">
+                                  <div class="col-2 lt d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-train latestticon"></i>
+                                  </div>
+                                  <div class="col-6 latestTranContent d-flex align-items-center">
+                                    <div>
+                                      <div class="latTranConTitle">Supreme Shirt</div>
+                                      <div class="latTranConData">01 Nov, 2020 10:00 am</div>
+                                    </div>
+                                  </div>
+                                  <div class="col-3 d-flex amount align-items-center justify-content-center">
+                                    -15,00 $
+                                  </div>
+                                  <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-angle-right rightAngleIcon"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="container-fluid ltcon">
+                                <div class="row">
+                                  <div class="col-2 lt d-flex align-items-center justify-content-center">
+                                  <div class="col-2 lt d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-cc-visa latestticon"></i>
+                                  </div>
+                                  <div class="col-6 latestTranContent d-flex align-items-center">
+                                    <div>
+                                      <div class="latTranConTitle">CapitalOne</div>
+                                      <div class="latTranConData">30 Oct, 2020 03:00 pm</div>
+                                    </div>
+                                  </div>
+                                  <div class="col-3 d-flex receivedAmount align-items-center justify-content-center">
+                                    +1300,00 $
+                                  </div>
+                                  <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-angle-right rightAngleIcon"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./js/script.js"></script>
+</html>
